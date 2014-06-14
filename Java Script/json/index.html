@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amy Winehouse</title>
+<script type="text/javascript" src="js/json.js"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span2">
+                <h1>Amy Winehouse</h1>
+                    <div id="albuns"
+                    <!-- CONTEUDO PREECHIDO PELO JS -->
+                    </div>
+            </div>
+        </div>
+    </div>
+        
+    <script type="text/javascript">
+        amy.discography.item.forEach(function(album) {
+            var content = '<hr><div id="titulo"><img class="img-rounded" src="http://s1.vagalume.com.br/'+album.cover+'"/><h2>' + album.desc + '</h2></div>';
+            
+            content += '<ol>';
+            album.discs[0].forEach(function(musica) {
+                content += '<li><a href="http://s1.vagalume.com.br/'+musica.url+'">' + musica.desc + '</a></li>';
+            });
+            content += '</ol>';
+            document.querySelector('#albuns').innerHTML += content;
+        });
+    </script>
+</body>
+</html>

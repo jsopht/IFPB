@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1396411498 source:c:\users\jefferson\skydrive\faculdade tsi\p1\algoritmo e programação\projeto ape\projeto ape cp2.2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<strings.h>
+	<conio.h>
+	<ctype.h>
+	<time.h>
+
+1396460442 source:c:\users\jefferson\skydrive\faculdade tsi\p1\algoritmo e programação\projeto ape\projeto ape cp3.1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<strings.h>
+	<conio.h>
+	<ctype.h>
+	<time.h>
+

@@ -1,4 +1,6 @@
-IFPB
-====
+IP INFO
 
-IFPB - Instituto Federal de Educação, Ciência e Tecnologia da Paraíba
+JS(jQuery) + Geolocation API
+
+Dado o IP retorna um Json com informações sobre o mesmo.
+

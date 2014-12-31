@@ -1,3 +1,4 @@
 IFPB
 ====
-IFPB - Instituto Federal de Educação, Ciência e Tecnologia da Paraíba.
+
+IFPB - Instituto Federal de Educação, Ciência e Tecnologia da Paraíba
